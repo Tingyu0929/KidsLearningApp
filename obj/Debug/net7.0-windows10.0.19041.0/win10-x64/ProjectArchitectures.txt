@@ -1,0 +1,1 @@
+D:\MAUI_app\KidsLearningApp\KidsLearningApp\KidsLearningApp.csproj;x64
