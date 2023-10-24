@@ -79,6 +79,36 @@
             </VerticalStackLayout>
         </Border>
         
+        <Border Grid.Row="3"
+                Grid.Column="0"
+                Padding="20">
+            <VerticalStackLayout Spacing="10"
+                                 VerticalOptions="Center">
+                <ImageButton Source="fruits.png"
+                             Aspect="AspectFit"
+                             HeightRequest="150"
+                             CommandParameter="Fruits"
+                             Clicked="ImageButton_Clicked"/>
+                <Label Text="Fruits"
+                       HorizontalOptions="Center"/>
+            </VerticalStackLayout>
+        </Border>
+        
+        <Border Grid.Row="3"
+                Grid.Column="1"
+                Padding="20">
+            <VerticalStackLayout Spacing="10"
+                                 VerticalOptions="Center">
+                <ImageButton Source="animal.png"
+                             Aspect="AspectFit"
+                             HeightRequest="150"
+                             CommandParameter="Animals"
+                             Clicked="ImageButton_Clicked"/>
+                <Label Text="Animals"
+                       HorizontalOptions="Center"/>
+            </VerticalStackLayout>
+        </Border>
+        
     </Grid>
 
 </ContentPage>
